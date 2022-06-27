@@ -1,0 +1,62 @@
+.header{
+    list-style-type:none;
+    font-family:'Open Sans', sans-serif;
+    font-size: smaller;
+    line-height: 1.8;
+    background-color: #f9fafc
+}
+.Hire-Us{
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-size: small;
+}
+.title2{
+    font-family:'Open Sans', sans-serif;
+    font-size: larger;
+}
+.body{
+    border-left: 2px solid #69696a;
+    padding-left: 5px;
+    font-family:'Open Sans', sans-serif;
+    font-size: small;
+   
+}
+.Call{
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-family:'Open Sans', sans-serif;
+    font-size: small;
+}
+.Footer {
+    text-align: stretch;
+    padding: 1px;
+    background-color: rgba(247, 193, 162, 0.7);
+    white-space: nowrap;
+ }
+ .Chirpus{
+    font-family:'Open Sans', sans-serif;
+    font-size: small;
+    display: inline-block;
+ }
+ .Links{
+    font-family:'Open Sans', sans-serif;
+    font-size: small;
+    color: #69696a;
+    display: inline-block;
+ }
