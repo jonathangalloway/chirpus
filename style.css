@@ -1,3 +1,11 @@
+.parent{
+    background-color: #f9fafc;
+}
+.list{
+    font-family:'Open Sans', sans-serif;
+    font-size: smaller;
+    background-color: #f9fafc
+}
 .header{
     list-style-type:none;
     font-family:'Open Sans', sans-serif;
@@ -9,14 +17,14 @@
     background-color: #000;
     border: none;
     color: white;
-    padding: 20px;
+    padding: 5px 150px 5px 150px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     border-radius: 50px;
     font-size: small;
+  
 }
 .title2{
     font-family:'Open Sans', sans-serif;
@@ -27,18 +35,17 @@
     padding-left: 5px;
     font-family:'Open Sans', sans-serif;
     font-size: small;
-   
 }
+
 .Call{
     background-color: #000;
     border: none;
     color: white;
-    padding: 10px;
+    padding: 2px 150px 2px 150px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     border-radius: 50px;
     font-family:'Open Sans', sans-serif;
     font-size: small;
@@ -47,16 +54,132 @@
     text-align: stretch;
     padding: 1px;
     background-color: rgba(247, 193, 162, 0.7);
-    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    Bottom: 0;
+    width: 100%;
  }
  .Chirpus{
     font-family:'Open Sans', sans-serif;
     font-size: small;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between
+    
  }
  .Links{
     font-family:'Open Sans', sans-serif;
     font-size: small;
     color: #69696a;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
  }
+ @media only screen and (min-width: 768px){
+    .parent{
+        background-color: #f9fafc;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between;
+    }
+    .title{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    .list{
+        font-family:'Open Sans', sans-serif;
+        font-size: smaller;
+        background-color: #f9fafc;
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+    }
+    .header{
+        list-style-type:none;
+        font-family:'Open Sans', sans-serif;
+        font-size: smaller;
+        line-height: 1.8;
+        background-color: #f9fafc;
+        display: flex;
+        text-align: stretch;
+        flex-direction: right;
+        justify-content: space-around;
+    }
+    .Hire-Us{
+        background-color: #000;
+        border: none;
+        color: white;
+        padding: 5px 100px 5px 100px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 50px;
+        font-size: small;
+        justify-content: right;
+    
+
+    }
+    .child{
+        display: flex;
+       
+    }
+    .title2{
+        font-family:'Open Sans', sans-serif;
+        font-size: larger;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .body{
+        border-left: 2px solid #69696a;
+        padding-left: 5px;
+        font-family:'Open Sans', sans-serif;
+        font-size: small;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+     .circles{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .large {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        right: 85px;
+        top: 105px;
+        justify-content: flex-end;
+    }
+    .medium {
+        height: 150px;
+        width: 150px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        position: absolute;
+        right: 35px;
+        top: 185px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .small {
+        height: 100px;
+        width: 100px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        top: 115px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+ }
+     
+ 
